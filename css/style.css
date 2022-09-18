@@ -1,0 +1,410 @@
+
+/* <==========================Подключаем шрифты=================================> */
+
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Roboto:wght@400;500;700&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Pomidorko";
+	src: url("../fonts/Pomidorko.woff2") format("woff2"), url("../fonts/Pomidorko.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "WanderOverYonder";
+	src: url("../fonts/WanderOverYonder.woff2") format("woff2"), url("../fonts/WanderOverYonder.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+
+/*<================================= Обнуление стилей ================================>*/
+
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+
+a {
+	color:inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+input,
+button,
+textarea{
+	font-family: inherit;
+	font-size: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+body{
+	line-height: 1;
+	background-color: #a9cfcf;
+}
+
+
+/*<================================= Header Block ================================>*/
+
+.heading{
+	text-transform: uppercase;
+	text-shadow: 	-10px 10px 0px #00e6e6,
+						-20px 20px 0px #01cccc,
+						-30px 30px 0px #00bdbd;
+	text-align: center;
+	font-size: 150px;
+	color: #ffffff;
+	margin-bottom: 80px;
+}
+
+.all-nav{
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.all-nav p{
+	word-spacing: 150px;
+	text-align: center;
+}
+
+.all-nav span {
+	color: #01cc85;
+	text-shadow: 4px 3px 0px rgb(104, 111, 116, 0.5), 9px 8px 0px rgba(0,0,0,0.15);
+
+}
+
+#one  {
+	color: #0b452b;
+	text-decoration: overline;
+	
+}
+
+#two {
+	color: #471474;
+	text-decoration: underline;
+}
+
+#three{
+	color: #801e7e;
+	text-decoration: line-through;
+	
+}
+
+#four{
+	color: #0a4eb3;
+	text-decoration: overline;
+}
+#five{
+	text-decoration: underline;
+}
+
+
+/*<================================= Main Block ================================>*/
+
+p{
+	font-family: "WanderOverYonder";
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+.main{
+	background: #222;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+	font-size: 150px;
+	color: rgba(0,0,0,0.6);
+   text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+	font-style: italic;
+	font-family: "Larsseit";
+	font-weight: 700;
+	margin-bottom: 40px;
+
+}
+
+.text p{
+	margin: 40px 0;
+	font-family: "Pomidorko";
+	font-size: 18px;
+	text-align: center;
+}
+
+h2{
+	font-size: 40px;
+	text-transform: capitalize;
+	text-align: center;
+	font-family: "Larsseit";
+	font-weight: 700;
+	color: #0b452b;
+}
+
+.block-one img {
+	margin-left: 240px;
+	margin-bottom: 120px;
+}
+
+.block-two h2 {
+	margin-bottom: 80px;
+	text-decoration: line-through;
+	text-align: right;
+	color: #bd0071;
+}
+
+.block-two .text p{
+	font-family: "Larsseit";
+	font-weight: 500;
+	color: #0a4eb3;
+	text-align: left;
+	font-style: italic;
+	padding: 33px;
+	background: #0b452b;
+}
+
+.block-two img{
+	margin-left: -700px;
+}
+
+.img {
+	background-color: #222;
+}
+
+.block-two h3{
+	margin-top: 25px;
+	font-size: 25px;
+	text-align: center;
+	color: #471474;
+}
+
+
+
+.soft {
+	text-align: right;
+	font-family: "Pomidorko";
+}
+
+.nubber {
+	text-align: center;
+	font-size: 18px;
+	color: rgb(216, 50, 180, 0.5);
+	margin-bottom: 50px;
+}
+
+
+.block-three h2{
+	text-align: left;
+	color: #0b4b62;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin: 120px 0;
+
+}
+
+.text-right {
+	text-align: right;
+	font-family: "Pomidorko";
+}
+
+.text-center {
+	text-align: center;
+	font-family: "Larsseit";
+	line-height: 2;
+	color: #3a4e43;
+}
+
+.text-left {
+	text-align: left;
+	line-height: 3;
+	color: #801e7e;
+}
+
+.block-three h3{
+	margin-top: 80px;
+	text-align: center;
+	font-family: "Pomidorko",monospace;
+	font-size: 25px;
+	color: #da7611;
+	letter-spacing: 2px;
+}
+
+.block-three img{
+	margin-left: 550px;
+	padding: 20px;
+	margin-bottom: 180px;
+}
+
+.block-four{
+	margin-bottom: 120px;
+}
+
+.block-four h2{
+	color: #e5eded;
+	margin-bottom: 80px;
+	text-shadow: 10px 10px 3px #222;
+}
+
+.block-four h3{
+	font-family: "Pomidorko",monospace;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #e7a90d;
+}
+
+.facts {
+	margin-top: 40px;
+	word-spacing: 5px;
+	font-family: "Larsseit";
+	font-weight: 700;
+}
+
+li {
+	color: #0a4eb3;
+	letter-spacing: 2px;
+	line-height: 20px;
+	text-align: right;
+	text-decoration: underline;
+	
+}
+
+.block-four img{
+	width: 1000px;
+	margin-left: 350px;
+	
+}
+
+.block-five h2{
+	text-align:center;
+	word-spacing: 40px;
+	margin-bottom: 80px;
+	text-decoration: overline;
+}
+
+.block-five img{
+	width: 500px;
+	margin-left: 900px;
+	background-color: #471474;
+	padding: 50px;
+}
+
+h3 {
+	font-size: 40px;
+	text-decoration: line-through;
+
+}
+
+.sit{
+	color:#801e7e;
+}
+
+.on{
+	color: rgb(109, 59, 59);
+}
+
+.bench{
+	color: rgb(69, 26, 154);
+}
+
+.onthebench{
+	text-align: center;
+}
+
+.first-word{
+	text-decoration: underline;
+	color: #01cccc;
+}
+
+.end{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: "WanderOverYonder";
+	font-style: italic;
+
+}
+
+footer {
+	margin-top: 120px;
+}
+
+.footer{
+	background-color: rgb(194, 21, 96);
+	text-transform: uppercase;
+	font-size: 150px;
+	color: rgb(245, 244, 247);
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	font-style: italic;
+	text-align: center;
+
+}
+
+footer li {
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	color: royalblue;
+	font-family: "Pomidorko",monospace;
+	line-height: 40px;
+}
+
+.last-word{
+	margin-top: 50px;
+	text-align: end;
+	font-size: 40px;
+	font-family: "WanderOverYonder";
+}
